@@ -1,0 +1,127 @@
+/* General CSS to clear margin and border giving by browsers */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f4f1;
+}
+/* Styling for the navbar starts here */
+.navBar{
+    width: 100%;
+    height: 77px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.sm-icons{
+    width: 27px;
+    height: 27px;
+}
+
+.logo img:nth-child(2){
+    width: 103px;
+    height: 24px;
+}
+
+
+/* styling for navbar ends here */
+/* utility styles start here */
+
+.profile-thumbnail{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+
+.upper-thumbnail img{
+    width: 66px;
+    height: 66px;
+    border-radius: 100%;
+	border: 2px solid #dca;
+}
+.container{
+    display: block;
+    margin-left: 20px;
+}
+.container p{
+    text-align: center;
+    font-size: 14px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.sm-txt{
+    font-size: .2;
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+    background: center cover/center;
+}
+/* utility styles end here */
+/* Stories section */
+
+.stories {
+	display: flex;
+	width: 100%;
+	height: 120px;
+	border-bottom: 1px solid rgb(219, 219, 219);
+    align-items: center;
+    overflow-x: auto;
+}
+/* user section */
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0 10px;
+}
+.sm-tmb{
+    display: flex;
+    
+}
+.sm-tmb img{
+    height: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+.txt-icon{
+    font-size: 1rem;
+    margin: 0 10px;
+    line-height: 1.2;
+}
+
+.three-dots img{
+    height: 16px;
+    width: 16px;
+
+}
+.timeline-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 13px;
+}
+.comments{
+    padding: 0 13px;
+    font-size: 14px;
+}
+.comments p:nth-child(2){
+    padding: 10px 20px;
+}
+.comments p a{
+    color: rgb(156, 156, 156);
+}
+
+
+
